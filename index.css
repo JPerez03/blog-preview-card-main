@@ -1,0 +1,78 @@
+body{
+    background-color: #f3d05d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+@font-face {
+    font-family: figtreeItalic;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+#mainpanel{
+    background-color: white;
+    border: 0.2vh black solid;
+    border-radius: 1vh;
+    border-right: 0.5vh black solid;
+    border-bottom: 0.5vh black solid;
+    
+}
+#imgIllustration{
+    margin: 2vh;
+    border-radius: 1lvh;
+    display: flex;
+    max-width: 40vh;
+}
+#LearningTitle{
+    background-color: #efd35a;
+    display: flexbox;
+    padding: 1vh;
+    font-family: figtreeItalic;
+    font-weight: bolder;
+    max-width: 10vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    margin-left: 2vh;
+    text-align: center;
+}
+#pub{
+    font-family: figtreeItalic;
+    font-size: 1.5vh;
+    font-weight: 700;
+    margin-left: 2vh;
+}
+#htmlfound{
+    font-family: figtreeItalic;
+    font-weight: 900;
+    margin-left: 2vh;
+}
+#contentdetails{
+    max-width: 35vh;
+    margin-left: 2vh;
+    font-family: figtreeItalic;
+    color: gray;
+}
+#imggreg{
+    margin-left: 2vh;
+    max-width: 3vh;
+}
+#namegreg{
+    font-family: figtreeItalic;
+    text-align: center;
+    float: right;
+    margin-top: 0.5vh;
+    font-weight: 900;
+
+}
+#maingreg{
+    max-width: 16.5vh;
+}
+@media screen and (max-width : 375px) {
+
+    #imgIllustration{
+        margin: 2vh;
+        border-radius: 1lvh;
+        display: flex;
+        max-width: 35vh;
+    }
+}
